@@ -4,7 +4,7 @@ import React from 'react'
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { collection,getDocs,query,where } from 'firebase/firestore'
-import { db } from '../services/Config'
+import { db } from '../services/config'
 import PropiedadesList from '../PropiedadesList/PropiedadesList'
 import Wpp from '../Wpp/Wpp'
 
