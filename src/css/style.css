@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #bbb;
+}
+
+.buscador {
+  font-size: 20px;
+  color: #F7CCAC;
+}
+
+.navbar {
+  background-color: #1E1B31;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #F7CCAC;
+}
+
+.navbar-collapse {
+  display: grid;
+  justify-content: end;
+  align-items: end;
+  text-align: center;
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.nav-links {
+  color: #F7CCAC;
+  text-decoration: none;
+  margin: 0 25px;
+}
+
+.nav-links:hover {
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.navbar-brand:focus {
+  color: white;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0px 0px 15px white;
+}
+
+.propiedad-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-top: 40px;
+  width: 70%;
+  padding-bottom: 10px;
+  background-color: #C69B7B;
+  border-radius: 5px;
+  box-shadow: 5px 5px 12px #1E1B31, -5px -5px 12px #1E1B31;
+  color: white;
+  font-weight: bold;
+}
+
+.info-card {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.propiedad-imagen {
+  height: 420px;
+  width: 100%;
+}
+
+.carousel {
+  margin: 20px 30px;
+}
+
+.carousel-inner {
+  box-shadow: 0px 0px 12px black;
+}
+
+.carousel-control-prev {
+  color: white;
+  opacity: 100%;
+  width: 50px;
+}
+
+.carousel-control-prev:hover {
+  color: white;
+  opacity: 100%;
+}
+
+.carousel-control-prev:focus {
+  color: white;
+  opacity: 100%;
+}
+
+.carousel-control-next {
+  color: white;
+  opacity: 100%;
+  width: 50px;
+}
+
+.carousel-control-next:hover {
+  color: white;
+  opacity: 100%;
+}
+
+.carousel-control-next:focus {
+  color: white;
+  opacity: 100%;
+}
+
+.carousel-imagen {
+  height: 460px;
+  width: 100%;
+}
+
+.modal-content {
+  text-align: center;
+  background-color: #C69B7B;
+  color: white;
+}
+
+.md {
+  margin: 20px 30px;
+}
+
+.link-wpp-modal {
+  text-decoration: none;
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.contenedor-props {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-content: center;
+}
+
+.contenedor-wpp {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  width: 53px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.contenedor-wpp:hover {
+  filter: contrast(150%);
+}
+
+@media screen and (max-width: 1450px) {
+  .contenedor-props {
+    grid-template-columns: 1fr;
+  }
+  .navbar-collapse {
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    margin-right: -20px;
+    font-size: 230x;
+  }
+}
+@media screen and (max-width: 991px) {
+  .carousel-imagen {
+    height: 370px;
+    width: 100%;
+  }
+  .md {
+    margin: 20px 0px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .propiedad-imagen {
+    height: 330px;
+    width: 100%;
+  }
+  .propiedad-card {
+    width: 95%;
+  }
+  .carousel {
+    margin: 20px 10px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

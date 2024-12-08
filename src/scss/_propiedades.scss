@@ -1,0 +1,134 @@
+.propiedad-card {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+    width: 70%;
+    padding-bottom: 10px;
+
+    background-color: $color-card-fondo;
+    border-radius: 5px;
+    box-shadow: 5px 5px 12px $color-card-sombra, -5px -5px 12px $color-card-sombra;
+    color: white;
+    font-weight: bold;
+
+
+
+}
+
+.info-card {
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+  
+
+}
+
+.propiedad-imagen {
+
+    height: 420px;
+    width: 100%;
+ 
+
+}
+
+.carousel {
+   
+    margin: 20px 30px;
+
+}
+
+.carousel-inner {
+  
+    box-shadow: 0px 0px 12px black;
+
+}
+
+
+.carousel-control-prev{
+
+    color: white;
+    opacity: 100%;
+    width: 50px;
+  
+
+}
+
+.carousel-control-prev:hover{
+
+    color: white;
+    opacity: 100%;
+   
+
+}
+
+.carousel-control-prev:focus{
+
+    color: white;
+    opacity: 100%;
+
+}
+
+.carousel-control-next{
+
+    color: white;
+    opacity: 100%;
+    width: 50px;
+
+}
+
+.carousel-control-next:hover{
+
+    color: white;
+    opacity: 100%;
+
+}
+
+.carousel-control-next:focus{
+
+    color: white;
+    opacity: 100%;
+
+}
+
+.carousel-imagen {
+
+    height: 460px;
+    width: 100%;
+
+}
+
+
+.modal-content {
+
+    
+    text-align: center;
+    background-color: $color-card-fondo;
+    color: white;
+
+}
+
+.md {
+   
+    margin: 20px 30px;
+
+}
+
+.link-wpp-modal{
+
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+
+}

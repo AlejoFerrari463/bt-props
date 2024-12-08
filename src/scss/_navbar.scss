@@ -1,0 +1,74 @@
+.buscador {
+
+    font-size: 20px;
+    color: $color-navbar-link;
+
+}
+
+
+.navbar {
+
+    background-color: $color-navbar-fondo;
+    
+
+}
+
+.navbar-brand {
+
+    font-size: 30px;
+    color: $color-navbar-link;
+
+}
+
+.navbar-collapse {
+
+    display: grid;
+    justify-content: end;
+    align-items: end;
+    text-align: center;
+    margin-right: 40px;
+    font-size: 20px;
+   
+
+}
+
+.nav-links {
+
+    color: $color-navbar-link;
+    text-decoration: none;
+    margin: 0 25px;
+
+}
+
+
+.nav-links:hover {
+
+
+    color: white;
+
+}
+
+.navbar-brand:hover {
+
+    color: white;
+
+}
+
+.navbar-brand:focus {
+
+    color: white;
+
+}
+
+.navbar-toggler {
+
+    background-color: white;
+
+
+}
+
+.navbar-toggler:focus {
+
+    box-shadow: 0px 0px 15px white;
+
+}

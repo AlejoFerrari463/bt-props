@@ -1,0 +1,67 @@
+
+@media screen and (max-width: 1450px) {
+    
+    .contenedor-props {
+
+        grid-template-columns: 1fr;
+    
+    }
+    
+    .navbar-collapse {
+
+ 
+        justify-content: end;
+        align-items: end;
+        text-align: end;
+        margin-right: -20px;
+        font-size: 230x;
+   
+
+    }
+
+    
+
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .carousel-imagen {
+
+        height: 370px;
+        width: 100%;
+    
+    }
+    .md {
+   
+        margin: 20px 00px;
+    
+    }
+    
+
+}
+
+
+@media screen and (max-width: 830px) {
+
+    .propiedad-imagen {
+
+        height: 330px;
+        width: 100%;
+     
+    
+    }
+
+    .propiedad-card {
+
+        width: 95%;
+
+    }
+
+    .carousel {
+   
+        margin: 20px 10px;
+    
+    }
+
+}
